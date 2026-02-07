@@ -15,6 +15,24 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 4. Define Definition of Done (DoD)
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
+7. Onboard cross-functional team members
+
+## Team Onboarding Checklist
+Use this checklist to ensure all team members have the context and access they need:
+
+### All Team Members
+- [ ] Added to project communication channels (Slack, Teams, etc.)
+- [ ] Access to project board and documentation
+- [ ] Reviewed Project One-pager and goals
+- [ ] Understand escalation paths and key contacts
+
+### Role-Specific Onboarding
+- [ ] **Developers**: Code repository access, CI/CD pipeline walkthrough, coding standards reviewed
+- [ ] **UX Designer**: Design tools access, brand guidelines shared, user research repository access
+- [ ] **SME**: Context on technical/domain challenges, scheduled for key review sessions
+- [ ] **Support Engineer**: Access to monitoring and incident tools, release schedule shared, escalation procedures reviewed
+- [ ] **Change Manager**: Access to change log, stakeholder contact list, approval workflows documented
+- [ ] **QA/Testing**: Test environment access, test plan template, acceptance criteria format reviewed
 
 ## Backlog Item Template
 - Title:
@@ -41,3 +59,6 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] Cross-functional team members onboarded (see Team Onboarding Checklist)
+- [ ] Role boundaries and responsibilities clarified
+- [ ] Communication and escalation paths documented

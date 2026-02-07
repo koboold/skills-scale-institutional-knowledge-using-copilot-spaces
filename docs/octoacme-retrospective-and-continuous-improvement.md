@@ -16,6 +16,8 @@ After each sprint, release, or important milestone. Also after incidents.
 - Timebox: 45–75 minutes depending on team size
 - Use an anonymous idea board if needed to encourage candor
 - Prioritize 2–3 top action items to avoid overload
+- **Include cross-functional perspectives**: Invite UX Designer, Support Engineer, SME, or Change Manager when their input would improve outcomes
+- Focus on systemic improvements, not individual blame
 
 ## Tracking Improvements
 - Add action items to the project backlog or issues with clear owners and timelines

@@ -23,11 +23,22 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - [ ] Run post-deploy verifications
 - [ ] Announce release to stakeholders and support
 
+### Cross-Functional Release Coordination
+- [ ] **Support Engineer**: Briefed on new features, known issues, and troubleshooting steps
+- [ ] **UX Designer**: Verified UI/UX changes in staging environment
+- [ ] **Change Manager**: Change approvals documented and communicated
+- [ ] **SME**: Critical functionality validated in pre-production
+- [ ] **Product Manager**: Release notes and customer communication approved
+
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
   - Trigger incident response and notify on-call
+  - **Support Engineer**: Immediately notify affected customers and provide status updates
+  - **Change Manager**: Document incident and update change records
   - Rollback to last known-good release if necessary
+  - **SME**: Assist with root cause analysis if domain expertise needed
   - Triage root cause and capture action items
+  - Schedule post-incident review with cross-functional team
 
 ## Release Notes Template
 - Release name / number:

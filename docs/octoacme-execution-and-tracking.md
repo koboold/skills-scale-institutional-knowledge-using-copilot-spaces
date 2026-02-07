@@ -29,12 +29,23 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- **Level 1**: Team-level triage in daily standup
+- **Level 2**: PM escalates to Product Lead and dependent teams
+- **Level 3**: Sponsor-level escalation for business-impacting issues
+
+### Role-Specific Escalation Guidance
+- **Technical blockers**: Engage SME or Tech Lead for expert input
+- **Design/UX issues**: Loop in UX Designer for rapid resolution
+- **Customer-impacting bugs**: Notify Support Engineer to manage customer communication
+- **Scope changes**: Involve Change Manager to assess impact and coordinate approvals
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Cross-functional team members onboarded:
+  - [ ] UX Designer has access to design tools and feedback channels
+  - [ ] SMEs scheduled for key review checkpoints
+  - [ ] Support Engineer informed of release timeline and key features
+  - [ ] Change Manager tracking all scope/timeline adjustments
