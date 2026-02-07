@@ -20,9 +20,17 @@ Maintain a simple table with:
 - Monitor: review at weekly syncs and update status
 
 ## Stakeholder Communication
-- Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
+- Identify stakeholder groups and communication needs (e.g., engineering, sales, support, customers)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+
+### Role-Based Communication Responsibilities
+- **Project Manager**: Overall status updates, risk communication, stakeholder coordination
+- **Product Manager**: Feature rationale, success metrics, roadmap updates
+- **Change Manager**: Change notifications, impact assessments, approval tracking
+- **Support Engineer**: Customer-facing communications, known issues, workarounds
+- **UX Designer**: Design decisions, usability findings, accessibility compliance
+- **SME**: Technical advisories, domain-specific guidance, expert recommendations
 
 ## Communication Templates
 Weekly Status Template:
@@ -38,5 +46,9 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- **Standard escalation**: Team-level → PM → Product Lead → Sponsor
+- **Security incidents**: Follow the security incident runbook and notify Security on-call immediately
+- **Customer-impacting issues**: PM → Support Engineer → Customer Success → Product Lead
+- **Design/UX concerns**: Developer → UX Designer → Product Manager → Design Lead
+- **Technical complexity**: Developer → SME → Tech Lead → Engineering Manager
+- **Scope changes**: Any team member → PM → Change Manager → Sponsor (for approval)

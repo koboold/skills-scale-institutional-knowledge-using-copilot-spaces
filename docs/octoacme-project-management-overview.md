@@ -14,11 +14,19 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM)**: coordinates delivery, schedules, risk, communications.
+- **Product Manager (PdM)**: defines outcomes, prioritizes backlog, and measures success.
+- **Developers**: implement features, collaborate on design and testability.
+- **QA/Testing**: validate quality and acceptance criteria.
+- **Stakeholders**: provide inputs and approvals.
+
+## Supporting Roles
+- **Change Manager**: oversees change initiatives, impact analysis, and change communication.
+- **Subject Matter Expert (SME)**: provides domain or technical expertise for complex decisions.
+- **Support Engineer**: handles post-release issues and feeds customer insights back to the team.
+- **UX Designer**: ensures usability, accessibility, and user-centric design throughout the project.
+
+For detailed role descriptions and responsibilities, see [Roles and Personas](octoacme-roles-and-personas.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
